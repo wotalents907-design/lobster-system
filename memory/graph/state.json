@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "last_updated": "2026-04-04T22:08:00-07:00",
+  "notes": "Initial structured memory layer created for anti-forgetting and multi-agent consistency upgrade.",
+  "active_tasks": [],
+  "recent_decisions": [],
+  "blockers": []
+}

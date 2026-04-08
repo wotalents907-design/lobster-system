@@ -1,0 +1,5 @@
+# 虾子进化系统定时任务
+0 2 * * * cd '/Users/jingboss/.openclaw/workspace/projects/shrimp-evolution' && node scripts/extract-instincts.js >> '/Users/jingboss/.openclaw/workspace/projects/shrimp-evolution/cron.log' 2>&1
+0 9 * * * cd '/Users/jingboss/.openclaw/workspace/projects/shrimp-evolution' && node scripts/auto-checkpoint.js >> '/Users/jingboss/.openclaw/workspace/projects/shrimp-evolution/checkpoint.log' 2>&1
+0 14 * * * cd '/Users/jingboss/.openclaw/workspace/projects/shrimp-evolution' && node scripts/auto-checkpoint.js >> '/Users/jingboss/.openclaw/workspace/projects/shrimp-evolution/checkpoint.log' 2>&1
+0 20 * * * cd '/Users/jingboss/.openclaw/workspace/projects/shrimp-evolution' && node scripts/auto-checkpoint.js >> '/Users/jingboss/.openclaw/workspace/projects/shrimp-evolution/checkpoint.log' 2>&1

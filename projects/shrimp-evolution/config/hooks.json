@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"~/.openclaw/workspace/projects/shrimp-evolution/hooks/session-start.js\""
+          }
+        ],
+        "description": "虾子会话恢复 - 加载记忆、任务和本能",
+        "id": "shrimp:session:start"
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"~/.openclaw/workspace/projects/shrimp-evolution/hooks/session-end.js\"",
+            "async": true,
+            "timeout": 10
+          }
+        ],
+        "description": "虾子会话结束 - 保存状态和提取本能",
+        "id": "shrimp:session:end"
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"~/.openclaw/workspace/projects/shrimp-evolution/hooks/pre-compact.js\""
+          }
+        ],
+        "description": "虾子压缩前 - 备份关键信息",
+        "id": "shrimp:pre:compact"
+      }
+    ]
+  }
+}

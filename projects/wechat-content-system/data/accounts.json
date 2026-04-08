@@ -1,0 +1,32 @@
+{
+  "accounts": [
+    {
+      "id": "client-service",
+      "name": "客户服务号",
+      "type": "service",
+      "audience": "高净值打工人/中高管/离职赔偿与劳动纠纷客户",
+      "role": "转化阵地",
+      "contentPillars": [
+        "真实案件拆解",
+        "风险预警",
+        "实操指南",
+        "高价值问答",
+        "信任型内容"
+      ]
+    },
+    {
+      "id": "peer-subscription",
+      "name": "同行订阅号",
+      "type": "subscription",
+      "audience": "律师同行/潜在合作方/未来团队与行业影响力对象",
+      "role": "影响力阵地",
+      "contentPillars": [
+        "律师IP打法",
+        "获客与转化",
+        "律所/团队模型",
+        "行业判断",
+        "操盘日志"
+      ]
+    }
+  ]
+}

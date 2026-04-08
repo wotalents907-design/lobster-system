@@ -1,0 +1,24 @@
+{
+  "weekPlan": [
+    {
+      "week": "2026-W14",
+      "items": [
+        {
+          "accountId": "client-service",
+          "topicId": "c001",
+          "action": "outline"
+        },
+        {
+          "accountId": "client-service",
+          "topicId": "c002",
+          "action": "outline"
+        },
+        {
+          "accountId": "peer-subscription",
+          "topicId": "p001",
+          "action": "outline"
+        }
+      ]
+    }
+  ]
+}

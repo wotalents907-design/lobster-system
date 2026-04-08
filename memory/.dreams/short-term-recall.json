@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-07T04:55:53.942Z",
+  "entries": {
+    "memory:memory/2026-03-23.md:12:17": {
+      "key": "memory:memory/2026-03-23.md:12:17",
+      "path": "memory/2026-03-23.md",
+      "startLine": 12,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "- User wants durable operating habits: before each reply, check that the response is in Chinese and natural language. - User provided a durable orchestration spec for \"龙虾总管\": unique central coordinator role, seven-step workflow (task recognition → priority → delegation → knowledge-base call → quality check → escalation decision → fixed-format reporting), with conversion priority and strict escalation boundaries. - User approved the permanent use of rule-only memory guidance for subordinate agents: only tell them what to remember / not remember / how to compress and when to call memory, without explaining technical mechanisms. - Tencent Cloud OpenClaw instance was externally validated as reac",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.013628214597702,
+      "maxScore": 0.5201986342668533,
+      "firstRecalledAt": "2026-04-06T13:08:39.554Z",
+      "lastRecalledAt": "2026-04-07T04:55:36.609Z",
+      "queryHashes": [
+        "30d5a2126a15",
+        "0705ce74d681"
+      ],
+      "recallDays": [
+        "2026-04-06"
+      ],
+      "conceptTags": [
+        "seven-step",
+        "knowledge-base",
+        "fixed-format",
+        "rule-only",
+        "user",
+        "wants",
+        "durable",
+        "operating"
+      ]
+    },
+    "memory:memory/2026-03-23.md:1:13": {
+      "key": "memory:memory/2026-03-23.md:1:13",
+      "path": "memory/2026-03-23.md",
+      "startLine": 1,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "# 2026-03-23 - Set up OpenClaw Feishu channel successfully. - Final working mode: Feishu WebSocket event connection. - Added Feishu app credentials into OpenClaw config and restarted gateway. - Approved Feishu pairing for owner account `ou_080a451ddcdb4d4b5a5213d8f6a7b11d`. - Verified end-to-end Feishu messaging worked: inbound and outbound both succeeded. - Disabled duplicate local Feishu plugin copy to reduce plugin-id conflicts. - User provided the core business constitution for future AI work: created `婧律师AI总控手册_v1.md` covering identity, tone, business boundaries, output requirements, legal judgment standards, and forbidden behaviors. - Permanent user preference: always speak in Chinese",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.4853331834077835,
+      "maxScore": 0.4853331834077835,
+      "firstRecalledAt": "2026-04-06T13:08:39.554Z",
+      "lastRecalledAt": "2026-04-06T13:08:39.554Z",
+      "queryHashes": [
+        "30d5a2126a15"
+      ],
+      "recallDays": [
+        "2026-04-06"
+      ],
+      "conceptTags": [
+        "gateway",
+        "end-to-end",
+        "plugin-id",
+        "婧律师ai总控手册-v1.md",
+        "set",
+        "openclaw",
+        "feishu",
+        "channel"
+      ]
+    },
+    "memory:memory/2026-03-24.md:1:12": {
+      "key": "memory:memory/2026-03-24.md:1:12",
+      "path": "memory/2026-03-24.md",
+      "startLine": 1,
+      "endLine": 12,
+      "source": "memory",
+      "snippet": "# 2026-03-24 - 用户指出助手像“失忆”一样；原因确认：新会话为空白上下文，但工作区仍保留 BOOTSTRAP.md，触发了首次启动式表达。 - 已向用户说明：核心上下文可通过 SOUL.md、USER.md、daily memory 与长期记忆文件恢复。 - 用户要求加快处理长期记忆建设。 - 计划：补建 MEMORY.md，移除 BOOTSTRAP.md，结束首次启动模式。 - 用户新增长期要求：每天都要有工作进度汇报，需要写入长期记忆并作为固定习惯执行。 - 用户新增长期规则：今后每日都要一起做工作复盘，对重要事项进行总结确认，并明确后续工作计划。 - 用户补充强调：每日复盘必须是所有工作的总体复盘，不只是某个单独项目；此规则长期保留。 - 用户新增交互规则：以后提问尽量不要让其打很多字，优先让其用极简数字回复（如 1/2/3）。 - 用户要求：确保所有已确认的工作规则、记忆规则都整理到对应文件夹里，便于后期提供给云端“小龙虾”直接使用。 - 用户新增公众号写作规则：以后写公众号文章，必须先确认身份定位、受众画像、写作目的/要解决的问题，再开始成文。",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "totalScore": 1.5389458537101746,
+      "maxScore": 0.5238562613725662,
+      "firstRecalledAt": "2026-04-06T15:36:47.304Z",
+      "lastRecalledAt": "2026-04-07T04:55:53.942Z",
+      "queryHashes": [
+        "4b0c2b70f54c",
+        "0705ce74d681",
+        "437bb1c06da7"
+      ],
+      "recallDays": [
+        "2026-04-06"
+      ],
+      "conceptTags": [
+        "bootstrap.md",
+        "soul.md",
+        "user.md",
+        "memory.md",
+        "1/2/3",
+        "写作目的/要解决的问题",
+        "用户",
+        "指出"
+      ]
+    },
+    "memory:memory/2026-04-04.md:1:19": {
+      "key": "memory:memory/2026-04-04.md:1:19",
+      "path": "memory/2026-04-04.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# 2026-04-04 ## 多代理一致性与抗失忆升级 - 用户明确要求：以后所有针对代理自身的升级，不需要逐项请示，默认直接执行；做完用人话备忘录/日志汇报改了什么、为什么改、现在能做到什么。 - 用户明确要求：升级目标必须保证代理不会因换模型或系统重启而失忆。 - 已建立本地升级项目目录：`projects/agent-capability-upgrade/` - 已产出初版文档： - `UNIFIED_RULES_V1.md` - `GRAPH_MEMORY_SCHEMA_V1.md` - `UPGRADE_MEMO_2026-04-04.md` - 已建立结构化记忆目录：`memory/graph/` - 本轮达成的核心原则： - 内部升级先做后报，外部高风险动作先报后做。 - 关键记忆必须外置，不依赖模型上下文。 - 内部规则本地主存，GitHub 只做抽象沉淀/同步备份，不做唯一真源。 - 一致性靠制度，不靠人格；差异化靠 Soul，不靠混乱。 - 用户进一步明确：需要的不是讨论，而是我自己或我安排其他人把事情追踪下去，确认没有卡点，完全完成任务后再汇报。 - 已新建持续跟踪任务：`TASK-CLOUDSHRIMP-BOOTFILE-001`（云端虾启动文件 v1），由我统筹、云端虾执行、我负责节点确认与结果汇总。",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.0567661345005035,
+      "maxScore": 0.5308041423559189,
+      "firstRecalledAt": "2026-04-07T04:55:36.609Z",
+      "lastRecalledAt": "2026-04-07T04:55:53.942Z",
+      "queryHashes": [
+        "0705ce74d681",
+        "437bb1c06da7"
+      ],
+      "recallDays": [
+        "2026-04-06"
+      ],
+      "conceptTags": [
+        "备份",
+        "做完用人话备忘录/日志汇报改了什么",
+        "unified-rules-v1.md",
+        "graph-memory-schema-v1.md",
+        "upgrade-memo-2026-04-04.md",
+        "memory/graph",
+        "只做抽象沉淀/同步备份",
+        "task-cloudshrimp-bootfile-001"
+      ]
+    },
+    "memory:memory/2026-04-03.md:1:6": {
+      "key": "memory:memory/2026-04-03.md:1:6",
+      "path": "memory/2026-04-03.md",
+      "startLine": 1,
+      "endLine": 6,
+      "source": "memory",
+      "snippet": "# 2026-04-03 - 用户当前多节点协作结构收口为：本地虾 = 第一执行主脑 / 第一收口主脑；云端虾 = 常驻协调主脑 / 在线值守主脑；秘书虾 = 飞书前台秘书协调位。当前不再坚持“云端唯一主脑”，但由于秘书虾当天出现故障，云端虾暂不降级，继续作为稳定备援协调层。 - 已重写并落盘双主脑相关规则文件：`ROLE_LOCAL.md`、`ROLE_CLOUD.md`、`HANDOFF.md`，口径改为“本地执行主脑 + 云端协调主脑”的双主脑结构。 - 已新建并落盘云端同步包：`CLOUD_SYNC_PACK.md`，用于云端切模型后重新挂载规则、记忆规则、能力地图、当前主线状态与交接规则，核心目的是减少云端因切模型导致的失忆与能力误判。 - 已新建并落盘本地补强相关文件：`projects/agent-capability-upgrade/本地虾能力补强清单.md`、`飞书文档协作流程.md`、`飞书文档转交模板.md`、`本地补强到云端同步执行顺序表.md`。当前明确“先补本地、再同步云端”的顺序，不把半成品规则直接同步给云端。",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.0433116376399993,
+      "maxScore": 0.5248769998550414,
+      "firstRecalledAt": "2026-04-07T04:55:36.609Z",
+      "lastRecalledAt": "2026-04-07T04:55:53.942Z",
+      "queryHashes": [
+        "0705ce74d681",
+        "437bb1c06da7"
+      ],
+      "recallDays": [
+        "2026-04-06"
+      ],
+      "conceptTags": [
+        "role-local.md",
+        "role-cloud.md",
+        "handoff.md",
+        "cloud-sync-pack.md",
+        "飞书文档协作流程.md",
+        "飞书文档转交模板.md",
+        "本地补强到云端同步执行顺序表.md",
+        "用户"
+      ]
+    },
+    "memory:memory/2026-03-25.md:17:20": {
+      "key": "memory:memory/2026-03-25.md:17:20",
+      "path": "memory/2026-03-25.md",
+      "startLine": 17,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "- 用户新增长期执行任务：抖音/视频号后台消息回复与评论区维护后续也由我负责设计和执行，重点是用一句话高效回复、把有效用户自然导向微信，并筛选有价值评论做维护。 - 用户确认：以上内容一定会涉及知识库搭建，且后续要作为“小虾助理”分工的基础，不是临时话术。 - 用户新增并确认可长期执行的朋友圈规则：统一按保守标准控制在 6 行以内；前三行决定点击，必须分别承担痛点/场景/悬念钩子；发前统一自检“前三行有没有让人想点开”；比行数更关键的是不能写得像广告，要像真实经历/真实判断；后续朋友圈助手与内容库一律按这版规则执行。 - 用户确认：云端那个脑子后续不应再由其从头调教，需把重要规则沉淀为可迁移知识库，并安排“启动必读索引 + 固定启动口令/启动协议”，让云端脑子每次启动先读取规则再进入正式对话；该事项已升级为后续重要主线任务，待给云端配置更聪明脑子后优先安排。",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.5217609196901322,
+      "maxScore": 0.5217609196901322,
+      "firstRecalledAt": "2026-04-07T04:55:36.609Z",
+      "lastRecalledAt": "2026-04-07T04:55:36.609Z",
+      "queryHashes": [
+        "0705ce74d681"
+      ],
+      "recallDays": [
+        "2026-04-06"
+      ],
+      "conceptTags": [
+        "抖音/视频号后台消息回复与评论区维护后续也由我负责设计和执行",
+        "必须分别承担痛点/场景/悬念钩子",
+        "要像真实经历/真实判断",
+        "固定启动口令/启动协议",
+        "用户",
+        "新增",
+        "长期",
+        "执行"
+      ]
+    },
+    "memory:memory/2026-03-24.md:11:17": {
+      "key": "memory:memory/2026-03-24.md:11:17",
+      "path": "memory/2026-03-24.md",
+      "startLine": 11,
+      "endLine": 17,
+      "source": "memory",
+      "snippet": "- 用户要求：确保所有已确认的工作规则、记忆规则都整理到对应文件夹里，便于后期提供给云端“小龙虾”直接使用。 - 用户新增公众号写作规则：以后写公众号文章，必须先确认身份定位、受众画像、写作目的/要解决的问题，再开始成文。 - 用户指出：当我提供选项时，如果我自己有最推荐方案，应该把它直接列成选项（例如 1/2/3），不要让用户自己拼组合；此规则应作为长期交互习惯保留。 - 用户确认采用“三子代理”方案中的推荐版：先搭轻量版三子代理试运行，并同时明确职责、调用场景、升级路径。 - 用户继续选择推荐方案：一边细化三子代理调用规则，一边推进订阅号名称筛选与首发文章成稿。 - 用户新增要求：新公众号项目要把“注册推进”与“内容储备”一起做；该项目可能跨多天，需要考虑验证、系统等待和并行囤内容。 - 用户确认：新公众号名称先按当前较稳方案推进；若后续审核需要资质支撑，可使用其律师资格配合申请/补材料。",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.5197872638702392,
+      "maxScore": 0.5197872638702392,
+      "firstRecalledAt": "2026-04-07T04:55:36.609Z",
+      "lastRecalledAt": "2026-04-07T04:55:36.609Z",
+      "queryHashes": [
+        "0705ce74d681"
+      ],
+      "recallDays": [
+        "2026-04-06"
+      ],
+      "conceptTags": [
+        "写作目的/要解决的问题",
+        "1/2/3",
+        "可使用其律师资格配合申请/补材料",
+        "用户",
+        "要求",
+        "确保",
+        "所有",
+        "确认"
+      ]
+    },
+    "memory:memory/2026-03-30.md:1:7": {
+      "key": "memory:memory/2026-03-30.md:1:7",
+      "path": "memory/2026-03-30.md",
+      "startLine": 1,
+      "endLine": 7,
+      "source": "memory",
+      "snippet": "# 2026-03-30 - 用户要求：后续我们的对话统一参照东八区时间，不看电脑系统本地时间。 - 该规则属于长期协作偏好，已写入 `MEMORY.md`。 - 公众号双号内容系统项目已进入赶工阶段；当前要求是在东八区时间口径下推进截止时间与汇报。 - 用户要求开始试验子代理；可先做一个子代理，后续用于支持公众号内容、短视频文案、数据复盘、朋友圈文案等更多主线任务。",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.5219160050153732,
+      "maxScore": 0.5219160050153732,
+      "firstRecalledAt": "2026-04-07T04:55:53.942Z",
+      "lastRecalledAt": "2026-04-07T04:55:53.942Z",
+      "queryHashes": [
+        "437bb1c06da7"
+      ],
+      "recallDays": [
+        "2026-04-06"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "用户",
+        "要求",
+        "我们",
+        "对话",
+        "统一",
+        "参照",
+        "八区"
+      ]
+    }
+  }
+}
