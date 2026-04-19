@@ -1,0 +1,48 @@
+{
+  "description": "律师费参考价（湖南省长沙市参考标准）",
+  "note": "实际费用由律师与当事人协商确定，以下为市场参考价",
+  "hourly": {
+    "description": "按小时计费",
+    "ranges": [
+      {"level": "初级律师", "min": 500, "max": 1000, "unit": "元/小时"},
+      {"level": "中级律师", "min": 1000, "max": 2000, "unit": "元/小时"},
+      {"level": "高级律师", "min": 2000, "max": 5000, "unit": "元/小时"},
+      {"level": "合伙人/知名律师", "min": 5000, "max": null, "unit": "元/小时"}
+    ]
+  },
+  "fixed": {
+    "description": "按件计费（适用于法律咨询、文书起草等）",
+    "ranges": [
+      {"type": "法律咨询", "min": 200, "max": 1000, "unit": "元/次"},
+      {"type": "合同起草/审核", "min": 500, "max": 5000, "unit": "元/份"},
+      {"type": "律师函", "min": 1000, "max": 3000, "unit": "元/份"},
+      {"type": "起诉状/答辩状", "min": 1000, "max": 3000, "unit": "元/份"},
+      {"type": "协议起草（离婚/劳动）", "min": 1000, "max": 5000, "unit": "元/份"}
+    ]
+  },
+  "percentage": {
+    "description": "按标的额比例收费（诉讼代理）",
+    "ranges": [
+      {"min": 0, "max": 100000, "rate": 0.08, "min_fee": 5000, "max_fee": 8000, "remark": "10万元以下"},
+      {"min": 100000, "max": 1000000, "rate": 0.05, "min_fee": 8000, "max_fee": 50000, "remark": "10万-100万元"},
+      {"min": 1000000, "max": 10000000, "rate": 0.03, "min_fee": 50000, "max_fee": 300000, "remark": "100万-1000万元"},
+      {"min": 10000000, "max": null, "rate": 0.02, "min_fee": 300000, "remark": "1000万元以上"}
+    ],
+    "risk_fee": {
+      "description": "风险代理（胜诉后按标的额比例收取）",
+      "rate": "正常收费的1.5-3倍",
+      "max": "不超过标的额的30%",
+      "note": "劳动争议案件不得采用风险代理"
+    }
+  },
+  "industry_contract": {
+    "description": "行业合同起草参考工时",
+    "ranges": [
+      {"type": "劳动合同", "hours": 1, "fee_range": "500-2000元"},
+      {"type": "租赁合同", "hours": 1, "fee_range": "500-2000元"},
+      {"type": "买卖合同", "hours": 2, "fee_range": "1000-5000元"},
+      {"type": "投资协议", "hours": 4, "fee_range": "3000-10000元"},
+      {"type": "合伙协议", "hours": 3, "fee_range": "2000-8000元"}
+    ]
+  }
+}

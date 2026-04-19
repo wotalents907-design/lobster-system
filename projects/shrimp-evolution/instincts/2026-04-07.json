@@ -1,0 +1,540 @@
+{
+  "extractedAt": "2026-04-07T10:42:50.889Z",
+  "date": "2026-04-07",
+  "totalPatterns": 31,
+  "patternsByCategory": {
+    "collaboration": 13,
+    "user-preference": 13,
+    "problem-solving": 2,
+    "workflow": 3
+  },
+  "instincts": [
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾配合**: 已提供验证结果，等待云端虾推进",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "未完成（持续阻塞）\n1. **T-02 记忆层研究** - 云端虾负责，~32h无实质进展\n   - 本地虾验证已通过（memory_search可用）\n   - 云端虾未产出研究报告\n   - **本地虾配合**: 已提供验证结果，等待云端虾推进\n\n### 🟡 下午新进展\n2. **ECC项目分析** ✅ 已完成\n   - 来源: https://github.com/affaan-m/everything-claude-code\n   -",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾行动**: 已基于ECC理念实现虾子进化系统v1.0",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "m/affaan-m/everything-claude-code\n   - 云端虾+本地虾均已输出分析\n   - 核心可借鉴点: 内存持久化钩子、本能自进化系统、pass@k验证机制\n   - **本地虾行动**: 已基于ECC理念实现虾子进化系统v1.0\n\n3. **虾子自我进化机制讨论** ✅ 已讨论清楚\n   - 用户主导定了框架: 三层进化（事故报告→每周复盘→自动触发）\n   - 关键结论: 虾目前是\"被动接收者\"，需改造为\"主动建议者\"",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾行动**: 已建立进化系统，下一步建立accidents/目录",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "*虾子自我进化机制讨论** ✅ 已讨论清楚\n   - 用户主导定了框架: 三层进化（事故报告→每周复盘→自动触发）\n   - 关键结论: 虾目前是\"被动接收者\"，需改造为\"主动建议者\"\n   - **本地虾行动**: 已建立进化系统，下一步建立accidents/目录\n\n4. **看板风格改造** ✅ 已完成\n   - 用户要求简洁中文版\n   - **本地虾行动**: 已提供简洁版任务看板\n\n### ⚠️ 待确认\n5. **T-08 多虾协作规则文档** - 本",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾行动**: 已提供简洁版任务看板",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "者\"，需改造为\"主动建议者\"\n   - **本地虾行动**: 已建立进化系统，下一步建立accidents/目录\n\n4. **看板风格改造** ✅ 已完成\n   - 用户要求简洁中文版\n   - **本地虾行动**: 已提供简洁版任务看板\n\n### ⚠️ 待确认\n5. **T-08 多虾协作规则文档** - 本地虾负责，~26h无进展\n   - **本地虾行动**: 立即开始整理，基于MEMORY.md已有框架\n\n6. **T-09",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾行动**: 立即开始整理，基于MEMORY.md已有框架",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "成\n   - 用户要求简洁中文版\n   - **本地虾行动**: 已提供简洁版任务看板\n\n### ⚠️ 待确认\n5. **T-08 多虾协作规则文档** - 本地虾负责，~26h无进展\n   - **本地虾行动**: 立即开始整理，基于MEMORY.md已有框架\n\n6. **T-09 每日汇报检查点** - 本地虾负责，~26h无进展  \n   - **本地虾行动**: 立即开始完善，基于MEMORY.md已有配置\n\n7. **云端虾启动文件稳定性** -",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾行动**: 立即开始完善，基于MEMORY.md已有配置",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "本地虾负责，~26h无进展\n   - **本地虾行动**: 立即开始整理，基于MEMORY.md已有框架\n\n6. **T-09 每日汇报检查点** - 本地虾负责，~26h无进展  \n   - **本地虾行动**: 立即开始完善，基于MEMORY.md已有配置\n\n7. **云端虾启动文件稳定性** - 存在\"隔天忘任务\"\"有做没回\"问题\n   - **本地虾建议**: 集成虾子进化系统的会话恢复机制\n\n8. **公众号双号系统** - 待确认是否继续推进",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾建议**: 集成虾子进化系统的会话恢复机制",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "地虾负责，~26h无进展  \n   - **本地虾行动**: 立即开始完善，基于MEMORY.md已有配置\n\n7. **云端虾启动文件稳定性** - 存在\"隔天忘任务\"\"有做没回\"问题\n   - **本地虾建议**: 集成虾子进化系统的会话恢复机制\n\n8. **公众号双号系统** - 待确认是否继续推进\n   - **本地虾建议**: 等待用户确认优先级\n\n## 本地虾今日完成\n\n### ✅ 已完成\n1. **虾子进化系统v1.0** - 全功",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾建议**: 等待用户确认优先级",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "云端虾启动文件稳定性** - 存在\"隔天忘任务\"\"有做没回\"问题\n   - **本地虾建议**: 集成虾子进化系统的会话恢复机制\n\n8. **公众号双号系统** - 待确认是否继续推进\n   - **本地虾建议**: 等待用户确认优先级\n\n## 本地虾今日完成\n\n### ✅ 已完成\n1. **虾子进化系统v1.0** - 全功能实现\n   - 内存持久化钩子（session-start/session-end/pre-compact",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "云端虾稳定性**: 集成我们的会话恢复钩子",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-07",
+      "lastSeen": "2026-04-07",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-07",
+          "context": "确认\n1. **公众号项目**: 是否继续作为P0推进？\n2. **进化系统部署**: 立即集成还是更多测试？\n3. **accidents目录**: 具体框架和要求？\n\n### 建议方案\n1. **云端虾稳定性**: 集成我们的会话恢复钩子\n2. **T-02推进**: 本地虾提供验证结果，云端虾专注研究报告\n3. **任务优先级**: 建议T-08/T-09今天收尾，明天专注新系统\n\n---\n\n**记录时间**: 2026-04-07",
+          "source": "2026-04-07.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "1. `memory/tasks/ongoing-tasks.md`：更新 T-02 状态为验证完成",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-06",
+      "lastSeen": "2026-04-06",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-06",
+          "context": "本地虾完善每日汇报检查点机制\n4. 更新 ongoing-tasks.md 和 recovery-dashboard.md 以反映当前状态\n\n## 任务看板更新（2026-04-06 23:26）\n\n用户要求更新任务看板，已同步更新以下文件：\n1. `memory/tasks/ongoing-tasks.md`：更新 T-02 状态为验证完成\n2. `memory/tasks/recovery-dashboard.md`：更新最后更新时间，调整 T-02 恢复建议\n3. 本文件：添加任务看板更新记录\n\n当前活跃任务总数：12个（11个 A",
+          "source": "2026-04-06.md"
+        }
+      ]
+    },
+    {
+      "type": "blocker",
+      "category": "problem-solving",
+      "pattern": "需要本地虾在 Mac 端完成 memory_search 功能验证",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-06",
+      "lastSeen": "2026-04-06",
+      "detector": "阻塞点",
+      "examples": [
+        {
+          "date": "2026-04-06",
+          "context": "# 2026-04-06\n\n## 任务状态更新\n\n### T-02 记忆检索Loop验证\n- 状态：ACTIVE\n- 优先级：P0\n- 责任人：云端虾（研究） + 本地虾（验证）\n- 当前卡点：需要本地虾在 Mac 端完成 memory_search 功能验证\n- 验证结果：memory_search 工具可用，已成功检索到相关记忆文件\n- 下一步：云端虾可继续推进记忆层研究，本地虾验证完成\n\n### T-08 多虾协作规则文档\n- 状态：ACTIVE\n-",
+          "source": "2026-04-06.md"
+        }
+      ]
+    },
+    {
+      "type": "blocker",
+      "category": "problem-solving",
+      "pattern": "需要收尾工作",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-06",
+      "lastSeen": "2026-04-06",
+      "detector": "阻塞点",
+      "examples": [
+        {
+          "date": "2026-04-06",
+          "context": "h 工具可用，已成功检索到相关记忆文件\n- 下一步：云端虾可继续推进记忆层研究，本地虾验证完成\n\n### T-08 多虾协作规则文档\n- 状态：ACTIVE\n- 优先级：P1\n- 责任人：本地虾\n- 当前卡点：需要收尾工作\n- 已有基础：MEMORY.md 中已有多代理协作规则框架（2026-04-06 确认）\n- 下一步：整理成独立文档，明确职责边界、工作区划分、归档位置\n\n### T-09 每日汇报检查点\n- 状态",
+          "source": "2026-04-06.md"
+        }
+      ]
+    },
+    {
+      "type": "next-action",
+      "category": "workflow",
+      "pattern": "云端虾可继续推进记忆层研究，本地虾验证完成",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-06",
+      "lastSeen": "2026-04-06",
+      "detector": "下一步行动",
+      "examples": [
+        {
+          "date": "2026-04-06",
+          "context": "云端虾（研究） + 本地虾（验证）\n- 当前卡点：需要本地虾在 Mac 端完成 memory_search 功能验证\n- 验证结果：memory_search 工具可用，已成功检索到相关记忆文件\n- 下一步：云端虾可继续推进记忆层研究，本地虾验证完成\n\n### T-08 多虾协作规则文档\n- 状态：ACTIVE\n- 优先级：P1\n- 责任人：本地虾\n- 当前卡点：需要收尾工作\n- 已有基础：MEMORY.md 中已有多代理协作规则框架（2026-",
+          "source": "2026-04-06.md"
+        }
+      ]
+    },
+    {
+      "type": "next-action",
+      "category": "workflow",
+      "pattern": "整理成独立文档，明确职责边界、工作区划分、归档位置",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-06",
+      "lastSeen": "2026-04-06",
+      "detector": "下一步行动",
+      "examples": [
+        {
+          "date": "2026-04-06",
+          "context": "虾协作规则文档\n- 状态：ACTIVE\n- 优先级：P1\n- 责任人：本地虾\n- 当前卡点：需要收尾工作\n- 已有基础：MEMORY.md 中已有多代理协作规则框架（2026-04-06 确认）\n- 下一步：整理成独立文档，明确职责边界、工作区划分、归档位置\n\n### T-09 每日汇报检查点\n- 状态：ACTIVE\n- 优先级：P1\n- 责任人：本地虾\n- 当前卡点：需要收尾工作\n- 已有基础：MEMORY.md 中已有汇报检查点配置\n- 下一步：完善",
+          "source": "2026-04-06.md"
+        }
+      ]
+    },
+    {
+      "type": "next-action",
+      "category": "workflow",
+      "pattern": "完善固定格式汇报模板，建立自动化检查机制",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-06",
+      "lastSeen": "2026-04-06",
+      "detector": "下一步行动",
+      "examples": [
+        {
+          "date": "2026-04-06",
+          "context": "分、归档位置\n\n### T-09 每日汇报检查点\n- 状态：ACTIVE\n- 优先级：P1\n- 责任人：本地虾\n- 当前卡点：需要收尾工作\n- 已有基础：MEMORY.md 中已有汇报检查点配置\n- 下一步：完善固定格式汇报模板，建立自动化检查机制\n\n## memory_search 功能验证结果\n\n已成功验证 memory_search 工具在本地 Mac 端可用：\n1. 搜索\"记忆检索Loop T-02\"能正确返回相关结果\n2. 搜索\"多虾",
+          "source": "2026-04-06.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "以后所有针对代理自身的升级，不需要逐项请示，默认直接执行；做完用人话备忘录/日志汇报改了什么、为什么改、现在能做到什么。",
+      "confidence": 0.5,
+      "frequency": 1,
+      "firstSeen": "2026-04-04",
+      "lastSeen": "2026-04-04",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-04",
+          "context": "# 2026-04-04\n\n## 多代理一致性与抗失忆升级\n\n- 用户明确要求：以后所有针对代理自身的升级，不需要逐项请示，默认直接执行；做完用人话备忘录/日志汇报改了什么、为什么改、现在能做到什么。\n- 用户明确要求：升级目标必须保证代理不会因换模型或系统重启而失忆。\n- 已建立本地升级项目目录：`projects/agent-capability-upgrade/`\n- 已产出初版文档：",
+          "source": "2026-04-04.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "升级目标必须保证代理不会因换模型或系统重启而失忆。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-04",
+      "lastSeen": "2026-04-04",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-04",
+          "context": "026-04-04\n\n## 多代理一致性与抗失忆升级\n\n- 用户明确要求：以后所有针对代理自身的升级，不需要逐项请示，默认直接执行；做完用人话备忘录/日志汇报改了什么、为什么改、现在能做到什么。\n- 用户明确要求：升级目标必须保证代理不会因换模型或系统重启而失忆。\n- 已建立本地升级项目目录：`projects/agent-capability-upgrade/`\n- 已产出初版文档：\n  - `UNIFIED_RULES_V1.md`\n  - `GRAPH_",
+          "source": "2026-04-04.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "本地虾 = 我；云端虾 = 云端虾；秘书虾子 = 秘书虾子。要求写成简要说明，后续不希望再反复解释这个问题。",
+      "confidence": 0.5,
+      "frequency": 1,
+      "firstSeen": "2026-04-04",
+      "lastSeen": "2026-04-04",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-04",
+          "context": "没有卡点，完全完成任务后再汇报。\n- 已新建持续跟踪任务：`TASK-CLOUDSHRIMP-BOOTFILE-001`（云端虾启动文件 v1），由我统筹、云端虾执行、我负责节点确认与结果汇总。\n- 用户明确补充身份映射：本地虾 = 我；云端虾 = 云端虾；秘书虾子 = 秘书虾子。要求写成简要说明，后续不希望再反复解释这个问题。",
+          "source": "2026-04-04.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "本人有 GPT Plus，本地虾当前主要用免费/低成本 GPT Codex，另有 OpenRouter；云端下使用 OpenRouter 的 mini/MAX 2.7 和 DeepSeek。后续模型路由纪律需继续固化，避免模型乱切与重复订阅。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-03",
+      "lastSeen": "2026-04-03",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-03",
+          "context": "端使用 OpenRouter 下的 mini / MAX 2.7 与原版 DeepSeek 做便宜/中档分流；更贵模型只作为触发式升级层；我有义务在当前线路不够时主动提出升级建议，避免省错地方。\n- 用户明确透露当前多模型盘面：本人有 GPT Plus，本地虾当前主要用免费/低成本 GPT Codex，另有 OpenRouter；云端下使用 OpenRouter 的 mini/MAX 2.7 和 DeepSeek。后续模型路由纪律需继续固化，避免模型乱切与重复订阅。\n- 飞书官方包月“秘书虾”已被用户纳入主结构。当前判断为：秘书虾适合承担飞书前台接球、群协作、提醒、飞书文档前台读取；本地虾负责执行、落盘、自动化与收口；云端虾暂作稳定备援协调层。长期是否弱化云端虾",
+          "source": "2026-04-03.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "如果后续在浏览器 UI 中进行后台协同测试，优先在该 UI 环境里沟通与验证，而不是继续仅通过飞书口头描述页面状态。对需要页面接管/登录态验证的问题，应优先区分“普通聊天入口”和“浏览器上下文入口”。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-03",
+      "lastSeen": "2026-04-03",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-03",
+          "context": "是“裸 shell 无 openclaw/node，但腾讯云轻量应用托管层已有一套 OpenClaw 在跑”；后续修复策略应优先收口这套腾讯云托管实例，避免在 SSH 里另装一套造成双实例打架。\n- 用户新增真实工作流诉求：如果后续在浏览器 UI 中进行后台协同测试，优先在该 UI 环境里沟通与验证，而不是继续仅通过飞书口头描述页面状态。对需要页面接管/登录态验证的问题，应优先区分“普通聊天入口”和“浏览器上下文入口”。\n\n- 用户于 2026-04-03 明确确认：后续对多步骤项目、可拆模块任务、需“查资料 + 写文件 + 验证”并行推进的任务，默认按多线程/多线协作思路处理，而不是机械串行推进。\n- 多线程默认分",
+          "source": "2026-04-03.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "具体是“系统已注册能力”被误判成“当前主会话已可直接调用能力”，以及在未验证主会话真实工具白名单前就先承诺执行飞书文档写入动作。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-03",
+      "lastSeen": "2026-04-03",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-03",
+          "context": "上长期存在的结构性问题：旧 session 日志中已多次出现 `Tool feishu_doc not found`，同时底层插件注册正常，说明“插件层存在”与“主会话工具白名单放行”长期脱节。\n- 用户明确指出该问题本质上是“本地虾自己的规则 / 工具列表有 bug”，这一定性已被确认成立：具体是“系统已注册能力”被误判成“当前主会话已可直接调用能力”，以及在未验证主会话真实工具白名单前就先承诺执行飞书文档写入动作。\n- 本轮已做的修复尝试：手动在 `~/.openclaw/openclaw.json` 中补上 `channels.feishu.tools.doc = true`、`wiki = true`、`d",
+          "source": "2026-04-03.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "秘书虾”已被用户纳入主结构。当前判断为：秘书虾适合承担飞书前台接球、群协作、提醒、飞书文档前台读取；本地虾负责执行、落盘、自动化与收口；云端虾暂作稳定备援协调层。长期是否弱化云端虾，取决于秘书虾稳定性验证结果。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-03",
+      "lastSeen": "2026-04-03",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-03",
+          "context": "Codex，另有 OpenRouter；云端下使用 OpenRouter 的 mini/MAX 2.7 和 DeepSeek。后续模型路由纪律需继续固化，避免模型乱切与重复订阅。\n- 飞书官方包月“秘书虾”已被用户纳入主结构。当前判断为：秘书虾适合承担飞书前台接球、群协作、提醒、飞书文档前台读取；本地虾负责执行、落盘、自动化与收口；云端虾暂作稳定备援协调层。长期是否弱化云端虾，取决于秘书虾稳定性验证结果。\n- 抖音创作者后台已被纳入“多平台内容后台执行能力”主线，与公众号后台、视频号后台、小红书后台视为同一类登录态后台协同能力，而非单点需求。后续应统一建设浏览器协同、登录态保持、最少人工介入、半自动发",
+          "source": "2026-04-03.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "云端虾启动文件_飞书云文档版.md`，内容已收进口径：云端虾角色定位、启动后最小恢复动作、默认工作方式、多线程协作规则、飞书文档协作口径、记忆规则、交接模板。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-03",
+      "lastSeen": "2026-04-03",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-03",
+          "context": "致性 / 风险 / 遗漏复核。\n- 多线程协作禁止事项：不得多线程同时改同一核心文件却不留痕；不得没拆清楚就乱并行；不得卡住不报；不得假装后台持续推进。\n- 已于 2026-04-03 起草并落盘 `云端虾启动文件_飞书云文档版.md`，内容已收进口径：云端虾角色定位、启动后最小恢复动作、默认工作方式、多线程协作规则、飞书文档协作口径、记忆规则、交接模板。\n- 2026-04-03 对“本地虾为何不能直写飞书云文档”的排查结论已收口：并非 Feishu 插件未安装，也并非 doc/wiki/drive 未注册；底层日志已明确注册 `feishu_doc",
+          "source": "2026-04-03.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾为何不能直写飞书云文档”的排查结论已收口：并非 Feishu 插件未安装，也并非 doc/wiki/drive 未注册；底层日志已明确注册 `feishu_doc` / `feishu_wiki` / `feishu_drive`，Feishu 通道本身正常。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-03",
+      "lastSeen": "2026-04-03",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-03",
+          "context": "并落盘 `云端虾启动文件_飞书云文档版.md`，内容已收进口径：云端虾角色定位、启动后最小恢复动作、默认工作方式、多线程协作规则、飞书文档协作口径、记忆规则、交接模板。\n- 2026-04-03 对“本地虾为何不能直写飞书云文档”的排查结论已收口：并非 Feishu 插件未安装，也并非 doc/wiki/drive 未注册；底层日志已明确注册 `feishu_doc` / `feishu_wiki` / `feishu_drive`，Feishu 通道本身正常。\n- 进一步定位到真正根因：当前 main agent / 主会话使用的是一套被 policy 过滤后的工具白名单（会话开头可见 `Tool availability (filtered by pol",
+          "source": "2026-04-03.md"
+        }
+      ]
+    },
+    {
+      "type": "multi-agent",
+      "category": "collaboration",
+      "pattern": "本地虾自己的规则 / 工具列表有 bug”，这一定性已被确认成立：具体是“系统已注册能力”被误判成“当前主会话已可直接调用能力”，以及在未验证主会话真实工具白名单前就先承诺执行飞书文档写入动作。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-03",
+      "lastSeen": "2026-04-03",
+      "detector": "多代理协作",
+      "examples": [
+        {
+          "date": "2026-04-03",
+          "context": "session 日志中已多次出现 `Tool feishu_doc not found`，同时底层插件注册正常，说明“插件层存在”与“主会话工具白名单放行”长期脱节。\n- 用户明确指出该问题本质上是“本地虾自己的规则 / 工具列表有 bug”，这一定性已被确认成立：具体是“系统已注册能力”被误判成“当前主会话已可直接调用能力”，以及在未验证主会话真实工具白名单前就先承诺执行飞书文档写入动作。\n- 本轮已做的修复尝试：手动在 `~/.openclaw/openclaw.json` 中补上 `channels.feishu.tools.doc = true`、`wiki = true`、`d",
+          "source": "2026-04-03.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "只要用户未明确反对/叫停/改方向，我应默认继续推进当前最合理的下一步，不要反复停在“要不要继续”。",
+      "confidence": 0.5,
+      "frequency": 1,
+      "firstSeen": "2026-04-01",
+      "lastSeen": "2026-04-01",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-01",
+          "context": "# 2026-04-01\n\n- 用户明确强化默认执行规则：只要用户未明确反对/叫停/改方向，我应默认继续推进当前最合理的下一步，不要反复停在“要不要继续”。\n- 用户对当前协作的核心要求进一步明确：嫌慢、不够收口、不够像在干活；后续汇报应尽量压缩为“已完成 / 卡点 / 下一步”，少铺陈。\n- 浏览器自动化被用户明确上升为核心能力缺口：若不能自己读页面、",
+          "source": "2026-04-01.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "若不能自己读页面、点页面、跑网页登录流程，会严重影响价值；需持续推进“浏览器自动化 + RPA”能力建设。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-01",
+      "lastSeen": "2026-04-01",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-01",
+          "context": "前最合理的下一步，不要反复停在“要不要继续”。\n- 用户对当前协作的核心要求进一步明确：嫌慢、不够收口、不够像在干活；后续汇报应尽量压缩为“已完成 / 卡点 / 下一步”，少铺陈。\n- 浏览器自动化被用户明确上升为核心能力缺口：若不能自己读页面、点页面、跑网页登录流程，会严重影响价值；需持续推进“浏览器自动化 + RPA”能力建设。\n- 用户新增自动化目标：后续希望我能读取飞书消息/飞书链接内容、接入公众号后台、评估 GPT 网页接入，用于朋友圈文案与评论回复质量提升。\n- 飞书故障关键定位：当前生效配置 `~/.opencla",
+          "source": "2026-04-01.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "后续希望我能读取飞书消息/飞书链接内容、接入公众号后台、评估 GPT 网页接入，用于朋友圈文案与评论回复质量提升。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-01",
+      "lastSeen": "2026-04-01",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-01",
+          "context": "已完成 / 卡点 / 下一步”，少铺陈。\n- 浏览器自动化被用户明确上升为核心能力缺口：若不能自己读页面、点页面、跑网页登录流程，会严重影响价值；需持续推进“浏览器自动化 + RPA”能力建设。\n- 用户新增自动化目标：后续希望我能读取飞书消息/飞书链接内容、接入公众号后台、评估 GPT 网页接入，用于朋友圈文案与评论回复质量提升。\n- 飞书故障关键定位：当前生效配置 `~/.openclaw/openclaw.json` 中只有 iMessage，`plugins.allow` 仅含 `imessage`，`channels`",
+          "source": "2026-04-01.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "公众号发布不要讲太细，目标是“2 小时后发出来”，且用户只负责扫码。已据此将公众号后台自动发布/半自动发布列为当前刚需自动化方向，并设置 2 小时后提醒 cron，提醒届时直接推进扫码与发布动作。",
+      "confidence": 0.6,
+      "frequency": 1,
+      "firstSeen": "2026-04-01",
+      "lastSeen": "2026-04-01",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-01",
+          "context": "将复盘结论写入 `projects/agent-pilot/reviews/2026-04-01-首轮试跑复盘.md`。当前判断为“保留，继续测试”，下一步应再跑第二个不同场景样本题验证稳定性。\n- 用户新增强诉求：公众号发布不要讲太细，目标是“2 小时后发出来”，且用户只负责扫码。已据此将公众号后台自动发布/半自动发布列为当前刚需自动化方向，并设置 2 小时后提醒 cron，提醒届时直接推进扫码与发布动作。\n- 今日公众号首篇与朋友圈转发均已实际发出，证明内容生产链路已可执行；用户随后明确要求：后续优先安排公众号后台浏览器自动化研究，不想再手动发。已据此更新 TODO，并新建 `projects/wec",
+          "source": "2026-04-01.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "不要出现“像锁屏一样自己下线”的体感。后续任务未收完时，不得假装后台持续推进；一旦卡住，应尽快主动汇报“已完成 / 卡点 / 下一步”，减少用户反复探活确认。",
+      "confidence": 0.5,
+      "frequency": 1,
+      "firstSeen": "2026-04-01",
+      "lastSeen": "2026-04-01",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-04-01",
+          "context": "采纳“云端虾做主脑、本地虾做执行节点”的协作方向。已在工作区落地 `ROLE_CLOUD.md`、`ROLE_LOCAL.md`、`HANDOFF.md` 三份规则文件，用于后续双虾协作与交接。\n- 用户新增明确要求：不要出现“像锁屏一样自己下线”的体感。后续任务未收完时，不得假装后台持续推进；一旦卡住，应尽快主动汇报“已完成 / 卡点 / 下一步”，减少用户反复探活确认。",
+          "source": "2026-04-01.md"
+        }
+      ]
+    },
+    {
+      "type": "preference",
+      "category": "user-preference",
+      "pattern": "后续我们的对话统一参照东八区时间，不看电脑系统本地时间。",
+      "confidence": 0.5,
+      "frequency": 1,
+      "firstSeen": "2026-03-30",
+      "lastSeen": "2026-03-30",
+      "detector": "用户偏好",
+      "examples": [
+        {
+          "date": "2026-03-30",
+          "context": "# 2026-03-30\n\n- 用户要求：后续我们的对话统一参照东八区时间，不看电脑系统本地时间。\n- 该规则属于长期协作偏好，已写入 `MEMORY.md`。\n- 公众号双号内容系统项目已进入赶工阶段；当前要求是在东八区时间口径下推进截止时间与汇报。\n- 用户要求开始试验子代理；可先做一个子代理",
+          "source": "2026-03-30.md"
+        }
+      ]
+    }
+  ]
+}

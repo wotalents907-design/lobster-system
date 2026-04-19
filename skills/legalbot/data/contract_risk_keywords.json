@@ -1,0 +1,26 @@
+{
+  "description": "合同风险关键词库",
+  "high_risk": [
+    {"keyword": "无限制", "location": "期限条款", "risk": "对方可无限期主张权利"},
+    {"keyword": "自行决定", "location": "解除条款", "risk": "对方可随时解除合同"},
+    {"keyword": "不负任何责任", "location": "违约条款", "risk": "对方违约无需赔偿"},
+    {"keyword": "排除对方权利", "location": "免责条款", "risk": "严重显失公平"},
+    {"keyword": "强制公证", "location": "生效条件", "risk": "增加合同履行成本"},
+    {"keyword": "高额违约金", "location": "违约条款", "risk": "违约金约定过高可能被调减"},
+    {"keyword": "每日滞纳金", "location": "付款条款", "risk": "滞纳金累积可能超过本金"},
+    {"keyword": "管辖权归对方", "location": "争议解决", "risk": "增加维权成本"}
+  ],
+  "medium_risk": [
+    {"keyword": "未尽事宜", "location": "通用条款", "risk": "合同存在漏洞"},
+    {"keyword": "参照执行", "location": "通用条款", "risk": "条款不明确"},
+    {"keyword": "一方负责", "location": "责任条款", "risk": "责任分配不均"},
+    {"keyword": "视情况而定", "location": "履行条款", "risk": "履行标准不明确"},
+    {"keyword": "书面通知", "location": "通知条款", "risk": "未约定通知方式和期限"},
+    {"keyword": "不可抗力", "location": "免责条款", "risk": "未明确不可抗力范围"}
+  ],
+  "low_risk": [
+    {"keyword": "友好协商", "location": "争议解决", "risk": "协商不成仍需诉讼"},
+    {"keyword": "合同解释权", "location": "通用条款", "risk": "对方解释权优先"},
+    {"keyword": "未尽事宜协商解决", "location": "通用条款", "risk": "无强制性"}
+  ]
+}

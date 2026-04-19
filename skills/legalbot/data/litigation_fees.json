@@ -1,0 +1,20 @@
+{
+  "description": "诉讼费速查表（按标的额计算）",
+  "source": "《诉讼费用交纳办法》",
+  "ranges": [
+    {"min": 0, "max": 10000, "fee": 50, "remark": "1万元以下"},
+    {"min": 10000, "max": 100000, "rate": 0.025, "base": -50, "remark": "1万-10万元"},
+    {"min": 100000, "max": 200000, "rate": 0.02, "base": 2000, "remark": "10万-20万元"},
+    {"min": 200000, "max": 500000, "rate": 0.015, "base": 4000, "remark": "20万-50万元"},
+    {"min": 500000, "max": 1000000, "rate": 0.01, "base": 8500, "remark": "50万-100万元"},
+    {"min": 1000000, "max": 2000000, "rate": 0.009, "base": 13500, "remark": "100万-200万元"},
+    {"min": 2000000, "max": 5000000, "rate": 0.008, "base": 22500, "remark": "200万-500万元"},
+    {"min": 5000000, "max": 10000000, "rate": 0.007, "base": 46500, "remark": "500万-1000万元"},
+    {"min": 10000000, "max": null, "rate": 0.006, "base": 81500, "remark": "1000万元以上"}
+  ],
+  "application_fee": {
+    "labor_dispute": 10,
+    "divorce": 50,
+    "other_civil": 50
+  }
+}
