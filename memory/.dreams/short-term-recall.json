@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-19T10:10:24.563Z",
+  "entries": {
+    "memory:memory/2026-04-13.md:1:19": {
+      "key": "memory:memory/2026-04-13.md:1:19",
+      "path": "memory/2026-04-13.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# 2026-04-13 日志 ## 今日事件 - 婧发送了完整的用户上下文摘要（根据刚整理完的记忆文件），要求记住她的所有信息 - 已完成： - USER.md 更新完毕（含完整画像、团队、偏好、禁止事项） - MEMORY.md 创建完毕（含产品体系、内容体系、课程规划、方法论） - 今日日志创建 ## 待补充 - IDENTITY.md 尚未填写（婧还没告诉我她的名字偏好、我的人设信息） - BOOTSTRAP.md 尚未删除（如果有的话） ## 备注 - 此次信息更新量大，USER.md 和 MEMORY.md 均已写入，下次启动时可正常加载",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-19T10:10:24.563Z",
+      "lastRecalledAt": "2026-04-19T10:10:24.563Z",
+      "queryHashes": [
+        "61cb789bc822"
+      ],
+      "recallDays": [
+        "2026-04-19"
+      ],
+      "conceptTags": [
+        "user.md",
+        "memory.md",
+        "identity.md",
+        "bootstrap.md",
+        "日志",
+        "今日",
+        "事件",
+        "发送"
+      ]
+    }
+  }
+}
