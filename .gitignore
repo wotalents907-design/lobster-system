@@ -1,0 +1,42 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Node dependencies
+node_modules/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Config backups
+*.backup
+*.bak
+
+# Deployment artifacts
+.deploy-backup-*/
+
+# Binary media (track by reference, not content)
+*.jpg
+*.jpeg
+*.png
+*.HEIC
+*.gif
+
+# OpenClaw internal
+.openclaw/
+.clawhub/lock.json
+.session-state.json
+
+# Compiled files
+*.pyc
+__pycache__/
+
+# IDE
+.vscode/
+.idea/
