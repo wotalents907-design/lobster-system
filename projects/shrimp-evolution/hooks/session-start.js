@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/Users/jing/.openclaw/tools/node-v22.22.0/bin/node
 
 /**
  * 会话启动钩子 - 加载先前上下文

@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/Users/jing/.openclaw/tools/node-v22.22.0/bin/node
 
 /**
  * 虾子进化系统测试脚本
@@ -124,7 +124,7 @@ try {
   console.log('   ✅ 创建测试记忆文件');
   
   // 运行提取脚本
-  const result = execSync(`node "${path.join(__dirname, 'scripts/extract-instincts.js')}"`, {
+  const result = execSync(`/Users/jing/.openclaw/tools/node-v22.22.0/bin/node "${path.join(__dirname, 'scripts/extract-instincts.js')}"`, {
     encoding: 'utf8',
     stdio: 'pipe'
   });

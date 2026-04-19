@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/Users/jing/.openclaw/tools/node-v22.22.0/bin/node
 /**
  * 自动化检查点脚本
  * 按时间自动生成检查点报告

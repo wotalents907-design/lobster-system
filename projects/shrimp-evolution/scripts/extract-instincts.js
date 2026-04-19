@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/Users/jing/.openclaw/tools/node-v22.22.0/bin/node
 
 /**
  * 本能提取脚本 - 从 daily notes 中提取模式

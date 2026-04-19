@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/Users/jing/.openclaw/tools/node-v22.22.0/bin/node
 /**
  * 系统监控脚本
  * 定期检查系统状态和任务进展

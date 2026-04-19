@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/Users/jing/.openclaw/tools/node-v22.22.0/bin/node
 
 /**
  * 会话结束钩子 - 保存状态和提取本能
@@ -72,7 +72,7 @@ function runInstinctExtraction() {
     const extractScript = path.join(SHRIMP_EVOLUTION_ROOT, 'scripts', 'extract-instincts.js');
     
     if (fs.existsSync(extractScript)) {
-      const result = execSync(`node "${extractScript}"`, {
+      const result = execSync(`/Users/jing/.openclaw/tools/node-v22.22.0/bin/node "${extractScript}"`, {
         encoding: 'utf8',
         stdio: 'pipe',
         cwd: SHRIMP_EVOLUTION_ROOT
