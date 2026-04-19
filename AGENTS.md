@@ -50,6 +50,43 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+## 🔐 Git 权限规则（三虾协作）
+
+> 最后更新：2026-04-19，由 AirJelly 制定，防止 Token 泄露和推送混乱事故。
+
+### 职责分工
+
+| 角色 | 允许的 Git 操作 | 禁止 |
+|------|----------------|------|
+| **本地虾（我）** | `git add` / `git commit` / `git status` / `git diff` | ❌ `git push` / `git pull` / `git merge` |
+| **云端虾** | 全部 Git 操作，负责所有 push/pull/merge | — |
+| **AirJelly** | 不操作 Git，负责规划与审查 | ❌ 一切 Git 命令 |
+| **秘书虾** | 不操作 Git | ❌ 一切 Git 命令 |
+
+### 提交前必须检查
+
+1. **不得在任何文件中包含真实 Token / 密钥 / 密码**
+   - 格式特征：`ghp_`、`github_pat_`、`sk-`、`Bearer `、密码明文
+   - 正确做法：用占位符 `<YOUR_TOKEN>` 或环境变量引用
+2. **以下文件禁止提交**（见 .gitignore）
+   - `memory/*.md`（本地日记，含敏感上下文）
+   - `.env` / `*.token` / `*secret*`
+   - `workspace-state.json`
+3. **发现已提交的 Token，立即执行**
+   - 先去 GitHub 吊销该 Token
+   - 再用 git filter-branch 或 BFG 清理历史
+   - 通知婧
+
+### 工作流程
+
+```
+本地虾：修改文件 → git add → git commit（本地提交）
+        ↓ 告知云端虾
+云端虾：审查 → git push origin main
+```
+
+---
+
 ## Red Lines
 
 - Don't exfiltrate private data. Ever.

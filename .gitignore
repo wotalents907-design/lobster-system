@@ -32,6 +32,20 @@ node_modules/
 .openclaw/
 .clawhub/lock.json
 .session-state.json
+workspace-state.json
+
+# 敏感文件 - 禁止提交
+.env
+.env.*
+*.token
+*.secret
+*secret*
+*password*
+*credentials*
+
+# 本地日记 / 运行日志（含敏感上下文，不上传）
+memory/*.md
+memory/.dreams/
 
 # Compiled files
 *.pyc
