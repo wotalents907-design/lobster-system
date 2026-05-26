@@ -42,6 +42,8 @@ workspace-state.json
 *secret*
 *password*
 *credentials*
+.api_key*
+api_key*
 
 # 本地日记 / 运行日志（含敏感上下文，不上传）
 memory/*.md
@@ -54,3 +56,5 @@ __pycache__/
 # IDE
 .vscode/
 .idea/
+skills/huashu-md-html/.venv/
+skills/wechat-cli/.venv/

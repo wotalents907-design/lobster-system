@@ -70,8 +70,14 @@ def main():
     with open(args.config) as f:
         cfg = json.load(f)
     feishu = cfg["channels"]["feishu"]
-    app_id = feishu["appId"]
-    app_secret = feishu["appSecret"]
+    # 支持新老配置结构
+    if "appId" in feishu:
+        app_id = feishu["appId"]
+        app_secret = feishu["appSecret"]
+    else:
+        default_account = feishu.get("defaultAccount", "main")
+        app_id = feishu["accounts"][default_account]["appId"]
+        app_secret = feishu["accounts"][default_account]["appSecret"]
 
     with tempfile.TemporaryDirectory() as tmpdir:
         mp3_path = os.path.join(tmpdir, "voice.mp3")

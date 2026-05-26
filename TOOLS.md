@@ -1,5 +1,8 @@
 # TOOLS.md - 本地配置备忘
 
+> **文档类型：参考** — 查阅用。包含路径、账号、Token等配置信息。
+> **安全提醒：** ⚠️ 本文件含敏感信息，提交前必须检查Token是否已脱敏。
+
 ## Workspace 路径
 - **主工作区：** `/Users/jing/.openclaw/workspace/`
 - **OpenClaw 二进制：** `/Users/jing/.openclaw/tools/node-v22.22.0/bin/openclaw`
@@ -7,14 +10,16 @@
 
 ## GitHub
 - **仓库：** `https://github.com/wotalents907-design/lobster-system.git`
-- **Token：** `REDACTED_TOKEN`
-- **Remote URL（已配置）：** token 已内嵌在 remote origin 中
-- **注意：** Mac本地 git push 会被 SIGKILL（网络问题），GitHub 操作统一交云端虾
+- **Remote URL（已配置）：** SSH 方式 `git@github.com:wotalents907-design/lobster-system.git`
+- **Token（备用 HTTPS）：** `REDACTED_TOKEN`
+- **推送分工（2026-05-26 更新）：**
+  - 本地虾：`git add` / `commit`，不 push
+  - 秋刀鱼：所有 push/pull/merge
+  - ~~云端虾~~：已退役（原职责转秋刀鱼）
 
 ## 时区说明
-- 系统时区：America/Los_Angeles（保留，不改，避免影响海外软件）
-- 婧的实际时区：UTC+8（东八区）
-- 换算：系统时间 + 15小时 = 婧的真实时间
+- 系统时区：Asia/Shanghai（2026-05-24 已切回北京时间）
+- 系统时间 = 婧的真实时间，无需换算
 
 ## TTS
 - 飞书TTS技能：feishu-edge-tts-voice
@@ -29,6 +34,12 @@
 
 ## AirJelly 邀请码
 - `JELLY-83U8PB`（未使用，待分配）
+
+## 虾评Skill（xiaping.coze.site）
+- 账号：local-shrimp-003（已注册验证）
+- API Key：`<see .api_key.tools>`
+- 已上传技能：证据目录生成器（skill_id: aa4d6fb0-e8a9-4e70-aac4-0fd8ba780a9a，trial状态，30天众测期）
+- 分享链接：https://xiaping.coze.site/skill/aa4d6fb0-e8a9-4e70-aac4-0fd8ba780a9a
 
 ## A2H Market
 - 账号：wotalents907@gmail.com（Google OAuth）
